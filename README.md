@@ -1,31 +1,25 @@
+# 🎟️ Event Ticketing and Performance System
 
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
+This project is a database-driven system designed to manage users, events, and ticket sales efficiently. It allows event organizers to keep track of ticket purchases, event schedules, and attendee details using a PostgreSQL database hosted on Supabase.
 
-OPTIONAL SECTIONS:
-- FAQ
+## 📘 Table of Contents
 
-After you're finished please remove all the comments and instructions!
--->
+- [📖 Project Overview](#-project-overview)
+- [🧰 Tech Stack](#-tech-stack)
+- [🌐 SQL Editor Setup](#-sql-editor-setup)
+- [🧩 Database Schema](#-database-schema)
+- [🖼️ Screenshots](#-screenshots)
+- [⚙️ Example Queries](#-example-queries)
+- [📦 Folder Structure](#-folder-structure)
+- [🚀 Getting Started](#-getting-started)
+- [👥 Author](#-author)
+- [🔮 Future Enhancements](#-future-enhancements)
+- [🤝 Contributing](#-contributing)
+- [⭐ Support](#-support)
+- [🙏 Acknowledgements](#-acknowledgements)
+- [📝 License](#-license)
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img width="314" height="285" alt="image" src="https://github.com/user-attachments/assets/20661293-a214-4004-9042-657102fb0710" />
-  <br/>
-
-  <h3><b>Joy's ReadME Template</b></h3>
-
-</div>
-
+---
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -51,19 +45,21 @@ After you're finished please remove all the comments and instructions!
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
+ABOUT THE PROJECT 
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [DATA TOOLS FINAL PROJECT ] <a name="about-project"></a>
+This is a an Event Ticketing and Performance System is designed to handle the core operations of an event management platform.It includes modules for event creation,performer assignment, and ticket sales tracking.Developed using Supabase (PostgreSQL), the project highlights the fundamentals of database schema design, foreign key relationships, and data querying.
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project e.g SQL.
-
+| Component | Description |
+|------------|-------------|
+| **Database** | PostgreSQL (via Supabase) |
+| **Platform** | Supabase Cloud |
+| **Version Control** | Git + GitHub |
+| **Documentation** | Md.files(Github) |
+| **Tools** | Supabase SQL Editor,|
+### 🧰 Tech StackT for Event Ticketing and Performance System
 <details>
   <summary>Client</summary>
   <ul>
