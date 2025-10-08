@@ -143,9 +143,7 @@ GROUP BY event_id;
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project only if available.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+> No live demo yet — this project runs in [Supabase](https://supabase.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
