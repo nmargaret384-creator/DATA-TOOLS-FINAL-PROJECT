@@ -253,6 +253,9 @@ Events Table
 Ticketing Table
 <img width="1918" height="523" alt="image" src="https://github.com/user-attachments/assets/8749585c-5a79-470a-8562-b0b9f50e5029" />
 
+The ERD screenshot from Superbase looks like this;
+<img width="1450" height="749" alt="image" src="https://github.com/user-attachments/assets/b195e766-c260-43f5-9300-f1f9ca3cf160" />
+
 
 
 
