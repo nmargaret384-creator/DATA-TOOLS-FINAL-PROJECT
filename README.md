@@ -32,6 +32,8 @@ ABOUT THE PROJECT
 This is a an Event Ticketing and Performance System is designed to handle the core operations of an event management platform.It includes modules for event creation,performer assignment, and ticket sales tracking.Developed using Supabase (PostgreSQL), the project highlights the fundamentals of database schema design, foreign key relationships, and data querying.
 
 ## 🛠 Built With <a name="built-with"></a>
+
+### 🧰 Tech StackT for Event Ticketing and Performance System
 | Component | Description |
 |------------|-------------|
 | **Database** | PostgreSQL (via Supabase) |
@@ -39,27 +41,7 @@ This is a an Event Ticketing and Performance System is designed to handle the co
 | **Version Control** | Git + GitHub |
 | **Documentation** | Md.files(Github) |
 | **Tools** | Supabase SQL Editor,|
-### 🧰 Tech StackT for Event Ticketing and Performance System
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">Supabase</a></li>
-  </ul>
-</details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">SQL</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -84,8 +66,6 @@ a)Events table
 
 b)SQL commands like:
 
-SELECT * FROM events;
-UPDATE events SET venue = 'New Venue' WHERE event_id = 1;
 
 👨‍🎤 2. PERFORMER LINKING
 
@@ -106,11 +86,6 @@ a)Performers table
 
 b)Foreign key relationship (event_id in performers → events.event_id)
 
-SQL example:
-
-SELECT performers.name, events.event_name
-FROM performers
-JOIN events ON performers.event_id = events.event_id;
 
 💰 3. Ticket Tracking & Sales Reporting
 
@@ -125,18 +100,6 @@ Functions:
 
 4.Generate SQL-based revenue reports for performance review.
 
-Supported By:
-
-a)Tickets table
-
-SQL example:
-
-SELECT event_id, SUM(quantity * price) AS total_revenue
-FROM tickets
-GROUP BY event_id;
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -156,7 +119,8 @@ Follow these steps to set up and run the project locally or on Supabase.
 ### Prerequisites
 Before you begin, make sure you have:
 
-1.A Supabase account
+1.A Supabase account https://supabase.com
+
 
 2.Basic understanding of SQL and relational databases
 
@@ -178,7 +142,9 @@ Before you begin, make sure you have:
 6.Once successful, go to the Table Editor in Supabase to confirm that the tables (events, performers, and tickets) have been created.
 
 DB SCHEMA.
+
 •	The DB is made up of 3 tables. Eaach table has 5 entries.
+
 •	To create the table, you will need a schema as shown below:
 
 
@@ -256,8 +222,6 @@ The ERD screenshot from Superbase looks like this;
 <img width="1450" height="749" alt="image" src="https://github.com/user-attachments/assets/b195e766-c260-43f5-9300-f1f9ca3cf160" />
 
 
-
-
 ### Install
 
 Install this project with the following steps:
@@ -285,28 +249,19 @@ c)tickets
 6.Go to the Table Editor in Supabase to confirm your data has been inserted.
 
 ### Usage
-You can now run queries to test and view your data On SQL
+You can now run queries to test and view your data is Correct 
+Use this to test
 
 SELECT * FROM users;
 SELECT * FROM events;
 SELECT * FROM tickets;
 
+
 You should see results appear in the Supabase SQL Editor output panel.
 
-### Run tests
+ RESULT EXAMPLE 
 
-To confirm your setup works;
-
-Try inserting a new performer or event.
-
-Run a JOIN query to check relationships between tables.
-
-Ensure that foreign keys correctly link tickets and events.
-
-Example:
-
-INSERT INTO events (event_name, venue, event_date, ticket_price)
-VALUES ('Tech Fest 2025', 'Nairobi Arena', '2025-11-10', 1500);
+ <img width="1853" height="407" alt="image" src="https://github.com/user-attachments/assets/4a4371e4-dac5-4a05-b6b2-b14b6bb60376" />
 
 
 ### Deployment
