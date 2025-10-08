@@ -151,25 +151,32 @@ GROUP BY event_id;
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+Follow these steps to set up and run the project locally or on Supabase.
 
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+Before you begin, make sure you have:
 
-In order to run this project you need:
+1.A Supabase account
 
-<!--
-Example command:
+2.Basic understanding of SQL and relational databases
 
-```sh
- gem install rails
-```
- -->
+3.A GitHub account to clone and push your work
+
+4.A text editor such as VS Code (optional, for editing .sql and .md files)
 
 ### Setup
+1.Go to Supabase
 
-Clone this repository to your desired folder:
+2.Create a new project named Event Ticketing and Performance System.
+
+3.Open the SQL Editor from your Supabase dashboard.
+
+4.Copy and paste the contents of your schema.sql file (from this repository).
+
+5.Click Run to execute the script — this will create your tables and insert sample data.
+
+6.Once successful, go to the Table Editor in Supabase to confirm that the tables (events, performers, and tickets) have been created.
 
 <!--
 Example commands:
@@ -194,32 +201,50 @@ Example command:
 --->
 
 ### Usage
+You can now run queries to test and view your data On SQL
+-- View all events
+SELECT * FROM events;
 
-To run the project, execute the following command:
+-- View all performers linked to their events
+SELECT performers.performer_name, events.event_name 
+FROM performers
+JOIN events ON performers.event_id = events.event_id;
 
-<!--
-Example command:
+-- View ticket sales per event
+SELECT event_id, SUM(quantity * price) AS total_revenue
+FROM tickets
+GROUP BY event_id;
 
-```sh
-  rails server
-```
---->
+You should see results appear in the Supabase SQL Editor output panel.
 
 ### Run tests
 
+To confirm your setup works:
+
+Try inserting a new performer or event.
+
+Run a JOIN query to check relationships between tables.
+
+Ensure that foreign keys correctly link tickets and events.
+
+Example:
+
+INSERT INTO events (event_name, venue, event_date, ticket_price)
+VALUES ('Tech Fest 2025', 'Nairobi Arena', '2025-11-10', 1500);
+
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
-You can deploy this project using:
+Once confirmed, push your project files to GitHub:
+
+git add .
+git commit -m "Initial Supabase Event Ticketing project setup"
+git push origin main
+
+
+Then share your repository link or create a pull request to your class repository.
 
 <!--
 Example:
