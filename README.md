@@ -179,6 +179,79 @@ Before you begin, make sure you have:
 6.Once successful, go to the Table Editor in Supabase to confirm that the tables (events, performers, and tickets) have been created.
 
 DB SCHEMA.
+•	The DB is made up of 3 tables. Eaach table has 5 entries.
+•	To create the table, you will need a schema as shown below:
+
+
+-- Drop existing tables
+DROP TABLE IF EXISTS tickets CASCADE;
+DROP TABLE IF EXISTS events CASCADE;
+DROP TABLE IF EXISTS users CASCADE;
+
+-- Create users table
+CREATE TABLE users (
+  user_id SERIAL PRIMARY KEY,
+  full_name VARCHAR(100) NOT NULL,
+  email VARCHAR(100) UNIQUE NOT NULL,
+  phone VARCHAR(15),
+  created_at TIMESTAMP DEFAULT NOW()
+);
+
+-- Create events table
+CREATE TABLE events (
+  event_id SERIAL PRIMARY KEY,
+  event_name VARCHAR(100) NOT NULL,
+  event_date DATE NOT NULL,
+  location VARCHAR(100),
+  price DECIMAL(10,2),
+  created_at TIMESTAMP DEFAULT NOW()
+);
+
+-- Create tickets table
+CREATE TABLE tickets (
+  ticket_id SERIAL PRIMARY KEY,
+  user_id INT REFERENCES users(user_id) ON DELETE CASCADE,
+  event_id INT REFERENCES events(event_id) ON DELETE CASCADE,
+  purchase_date TIMESTAMP DEFAULT NOW(),
+  seat_number VARCHAR(10)
+);
+
+-- Insert sample users
+INSERT INTO users (full_name, email, phone) VALUES
+('Alice Johnson', 'alice@example.com', '0712345678'),
+('Brian Mwangi', 'brian@example.com', '0723456789'),
+('Clara Wambui', 'clara@example.com', '0734567890'),
+('David Otieno', 'david@example.com', '0745678901'),
+('Eunice Njeri', 'eunice@example.com', '0756789012');
+
+-- Insert sample events
+INSERT INTO events (event_name, event_date, location, price) VALUES
+('Nairobi Music Festival', '2025-11-20', 'Kasarani Stadium', 2500.00),
+('Tech Innovators Summit', '2025-12-05', 'KICC Nairobi', 3000.00),
+('Comedy Night Live', '2025-10-25', 'Sarit Centre', 1500.00),
+('Food & Wine Expo', '2025-11-10', 'Westgate Mall', 2000.00),
+('Cultural Dance Fiesta', '2025-12-15', 'Uhuru Gardens', 1800.00);
+
+-- Insert sample tickets
+INSERT INTO tickets (user_id, event_id, seat_number) VALUES
+(1, 1, 'A12'),
+(2, 3, 'B10'),
+(3, 2, 'C05'),
+(4, 5, 'A02'),
+(5, 4, 'B15');
+
+DATABASE TABLES
+
+<img width="1452" height="530" alt="image" src="https://github.com/user-attachments/assets/04aef260-0f03-48b0-91cf-47fed4d7df3d" />
+
+Each Specific table should look like this in Superbase;Users table
+<img width="1915" height="515" alt="image" src="https://github.com/user-attachments/assets/2d8ff844-b0d4-4fdf-a632-6729b1740252" />
+
+Events Table
+<img width="1920" height="547" alt="image" src="https://github.com/user-attachments/assets/d643446c-6102-4068-b730-5c65e8c4c8bd" />
+
+Ticketing Table
+<img width="1918" height="523" alt="image" src="https://github.com/user-attachments/assets/8749585c-5a79-470a-8562-b0b9f50e5029" />
 
 
 
