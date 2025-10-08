@@ -178,27 +178,32 @@ Before you begin, make sure you have:
 
 6.Once successful, go to the Table Editor in Supabase to confirm that the tables (events, performers, and tickets) have been created.
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
 
 ### Install
 
-Install this project with:
+Install this project with the following steps:
 
-<!--
-Example command:
+1.Clone this repository to your local machine:
 
-```sh
-  cd my-project
-  gem install
-```
---->
+git clone https://github.com/yourusername/event-ticketing-and-performance-system.git
+cd event-ticketing-and-performance-system
+
+
+2.Open Supabase and navigate to the SQL Editor.
+
+3.Copy the contents of the file schema.sql from this repository.
+
+4.Paste the SQL code into the Supabase SQL editor and click Run.
+
+5.Once the script executes successfully, you’ll have three tables created:
+
+a)events
+
+b)performers
+
+c)tickets
+
+6.Go to the Table Editor in Supabase to confirm your data has been inserted.
 
 ### Usage
 You can now run queries to test and view your data On SQL
@@ -219,7 +224,7 @@ You should see results appear in the Supabase SQL Editor output panel.
 
 ### Run tests
 
-To confirm your setup works:
+To confirm your setup works;
 
 Try inserting a new performer or event.
 
