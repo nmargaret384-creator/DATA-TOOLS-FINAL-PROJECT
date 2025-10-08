@@ -3,7 +3,7 @@
 This project is a database-driven system designed to manage users, events, and ticket sales efficiently. It allows event organizers to keep track of ticket purchases, event schedules, and attendee details using a PostgreSQL database hosted on Supabase.
 
 <!-- TABLE OF CONTENTS -->
-# 📗 Table of Contents
+# 📗 Table of Contents.
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
