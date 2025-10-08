@@ -178,6 +178,10 @@ Before you begin, make sure you have:
 
 6.Once successful, go to the Table Editor in Supabase to confirm that the tables (events, performers, and tickets) have been created.
 
+DB SCHEMA.
+
+
+
 
 ### Install
 
@@ -207,18 +211,10 @@ c)tickets
 
 ### Usage
 You can now run queries to test and view your data On SQL
--- View all events
+
+SELECT * FROM users;
 SELECT * FROM events;
-
--- View all performers linked to their events
-SELECT performers.performer_name, events.event_name 
-FROM performers
-JOIN events ON performers.event_id = events.event_id;
-
--- View ticket sales per event
-SELECT event_id, SUM(quantity * price) AS total_revenue
-FROM tickets
-GROUP BY event_id;
+SELECT * FROM tickets;
 
 You should see results appear in the Supabase SQL Editor output panel.
 
@@ -237,16 +233,22 @@ Example:
 INSERT INTO events (event_name, venue, event_date, ticket_price)
 VALUES ('Tech Fest 2025', 'Nairobi Arena', '2025-11-10', 1500);
 
-To run tests, run the following command:
-
 
 ### Deployment
 
 Once confirmed, push your project files to GitHub:
 
-git add .
-git commit -m "Initial Supabase Event Ticketing project setup"
-git push origin main
+Commit and push your files to your GitHub repository.
+
+Include the following files:
+
+schema.sql
+
+README.md
+
+data_dictionary.md
+
+/docs/ERD.png
 
 
 Then share your repository link or create a pull request to your class repository.
