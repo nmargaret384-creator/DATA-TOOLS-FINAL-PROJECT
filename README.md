@@ -66,11 +66,76 @@ This is a an Event Ticketing and Performance System is designed to handle the co
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- 🎫 1. EVENT MANAGEMENT.
+
+This feature allows you to;
+
+1.Create and manage all the key details of an event within the database.
+Functions:
+
+2.Store essential event data such as name, venue, date, and ticket price.
+
+3.Update or delete events as needed using SQL commands.
+
+4.Retrieve all events for reporting or listing purposes.
+Supported By:
+
+a)Events table
+
+b)SQL commands like:
+
+SELECT * FROM events;
+UPDATE events SET venue = 'New Venue' WHERE event_id = 1;
+
+👨‍🎤 2. PERFORMER LINKING
+
+This feature;
+
+1.Manages all performers and links them to events through a foreign key relationship.
+Functions:
+
+2.Add new performers to the system (name, genre, contact info).
+
+3.Associate performers with one or multiple events.
+
+4.Retrieve all performers for a specific event.
+
+Supported By:
+
+a)Performers table
+
+b)Foreign key relationship (event_id in performers → events.event_id)
+
+SQL example:
+
+SELECT performers.name, events.event_name
+FROM performers
+JOIN events ON performers.event_id = events.event_id;
+
+💰 3. Ticket Tracking & Sales Reporting
+
+This feature ;
+
+1.Enables the management of ticket purchases and event revenue analysis.
+Functions:
+
+2.Store ticket information (ticket type, quantity, price, and linked event).
+
+3.Track how many tickets were sold per event.
+
+4.Generate SQL-based revenue reports for performance review.
+
+Supported By:
+
+a)Tickets table
+
+SQL example:
+
+SELECT event_id, SUM(quantity * price) AS total_revenue
+FROM tickets
+GROUP BY event_id;
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
