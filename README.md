@@ -1,4 +1,4 @@
-# 🎟️ Event Ticketing and Performance System
+# 🎟️ Event Ticketing and Performance System Project.
 
 This project is a database-driven system designed to manage users, events, and ticket sales efficiently. It allows event organizers to keep track of ticket purchases, event schedules, and attendee details using a PostgreSQL database hosted on Supabase.
 
@@ -27,10 +27,9 @@ This project is a database-driven system designed to manage users, events, and t
 
 <!-- PROJECT DESCRIPTION -->
 ABOUT THE PROJECT 
+# 🎟️ Event Ticketing and Performance System 
 
-# 📖 [DATA TOOLS FINAL PROJECT ] <a name="about-project"></a>
 This is a an Event Ticketing and Performance System is designed to handle the core operations of an event management platform.It includes modules for event creation,performer assignment, and ticket sales tracking.Developed using Supabase (PostgreSQL), the project highlights the fundamentals of database schema design, foreign key relationships, and data querying.
-
 
 ## 🛠 Built With <a name="built-with"></a>
 | Component | Description |
