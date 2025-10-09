@@ -146,7 +146,7 @@ DB SCHEMA.
 •	The DB is made up of 3 tables. Eaach table has 5 entries.
 
 •	To create the table, you will need a schema as shown below:
-
+```sql
 
 -- Drop existing tables
 DROP TABLE IF EXISTS tickets CASCADE;
@@ -205,6 +205,7 @@ INSERT INTO tickets (user_id, event_id, seat_number) VALUES
 (4, 5, 'A02'),
 (5, 4, 'B15');
 
+```
 DATABASE TABLES
 
 <img width="1452" height="530" alt="image" src="https://github.com/user-attachments/assets/04aef260-0f03-48b0-91cf-47fed4d7df3d" />
