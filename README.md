@@ -237,7 +237,6 @@ Install this project with the following steps:
 git clone https://github.com/yourusername/event-ticketing-and-performance-system.git
 cd event-ticketing-and-performance-system
 
-
 2.Open Supabase and navigate to the SQL Editor.
 
 3.Copy the contents of the file schema.sql from this repository.
@@ -294,12 +293,6 @@ You should see results appear in the Supabase SQL Editor output panel.
 <img width="1820" height="667" alt="image" src="https://github.com/user-attachments/assets/a3aef9f8-36c3-48a3-a1b4-c8ebddf93fba" />
 <img width="1920" height="530" alt="image" src="https://github.com/user-attachments/assets/44550f0b-0b2c-4f4d-80cd-9c6811640e1c" />
 <img width="1911" height="800" alt="image" src="https://github.com/user-attachments/assets/103864c3-597b-415b-ae58-dec03a487742" />
-
-
-
-
-
- 
 
 
 ### Deployment
