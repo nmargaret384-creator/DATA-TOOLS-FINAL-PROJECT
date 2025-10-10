@@ -65,6 +65,23 @@ SELECT * FROM users;
 SELECT * FROM events;
 SELECT * FROM tickets;
 
+-- Show all data in the events table
+SELECT * FROM events;
+
+-- Show only event names and prices
+SELECT event_name, price FROM events;
+
+-- Show events that cost more than 2000
+SELECT * FROM events
+WHERE price > 2000;
+
+-- Show events sorted by date (oldest first)
+SELECT * FROM events
+ORDER BY event_date ASC;
+
+-- Count how many events are in the table
+SELECT COUNT(*) AS total_events FROM events;
+
 
 
 
