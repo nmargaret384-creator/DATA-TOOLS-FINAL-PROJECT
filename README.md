@@ -210,17 +210,21 @@ DATABASE TABLES
 
 <img width="1452" height="530" alt="image" src="https://github.com/user-attachments/assets/04aef260-0f03-48b0-91cf-47fed4d7df3d" />
 
-Each Specific table should look like this in Superbase;Users table
-<img width="1915" height="515" alt="image" src="https://github.com/user-attachments/assets/2d8ff844-b0d4-4fdf-a632-6729b1740252" />
+Each Specific table should look like this in Superbase;
+Users table
+<img width="1915" height="535" alt="image" src="https://github.com/user-attachments/assets/0013faa3-54df-4310-80ba-8ae49ed26001" />
+
 
 Events Table
-<img width="1920" height="547" alt="image" src="https://github.com/user-attachments/assets/d643446c-6102-4068-b730-5c65e8c4c8bd" />
+<img width="1915" height="514" alt="image" src="https://github.com/user-attachments/assets/20ce1400-64c3-4042-b67f-8601376cb8cd" />
+
 
 Ticketing Table
-<img width="1918" height="523" alt="image" src="https://github.com/user-attachments/assets/8749585c-5a79-470a-8562-b0b9f50e5029" />
+<img width="1915" height="545" alt="image" src="https://github.com/user-attachments/assets/f5fd86c8-99c6-435c-a02b-371253b7031d" />
+
 
 The ERD screenshot from Superbase looks like this;
-<img width="1450" height="749" alt="image" src="https://github.com/user-attachments/assets/b195e766-c260-43f5-9300-f1f9ca3cf160" />
+
 
 
 ### Install
