@@ -224,6 +224,7 @@ Ticketing Table
 
 
 The ERD screenshot from Superbase looks like this;
+<img width="1465" height="673" alt="image" src="https://github.com/user-attachments/assets/0ea20adc-bed1-4357-bd2c-559741f71250" />
 
 
 
@@ -255,18 +256,19 @@ c)tickets
 
 ### Usage
 You can now run queries to test and view your data is Correct 
-Use this to test
-
+Use this  queries to test
+```sql
 SELECT * FROM users;
 SELECT * FROM events;
 SELECT * FROM tickets;
+```
 
 
 You should see results appear in the Supabase SQL Editor output panel.
 
  RESULT EXAMPLE 
 
- <img width="1853" height="407" alt="image" src="https://github.com/user-attachments/assets/4a4371e4-dac5-4a05-b6b2-b14b6bb60376" />
+ 
 
 
 ### Deployment
