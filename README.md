@@ -64,7 +64,7 @@ Supported By:
 
 a)Events table
 
-b)SQL commands like:
+b)SQL commands
 
 
 👨‍🎤 2. PERFORMER LINKING
@@ -124,7 +124,7 @@ Before you begin, make sure you have:
 
 2.Basic understanding of SQL and relational databases
 
-3.A GitHub account to clone and push your work
+3.A GitHub account to clone and push your work as well as documentation 
 
 4.A text editor such as VS Code (optional, for editing .sql and .md files)
 
@@ -245,11 +245,11 @@ cd event-ticketing-and-performance-system
 
 5.Once the script executes successfully, you’ll have three tables created:
 
-a)events
+a)Events
 
-b)performers
+b)Performers
 
-c)tickets
+c)Tickets
 
 6.Go to the Table Editor in Supabase to confirm your data has been inserted.
 
@@ -311,9 +311,6 @@ data_dictionary.md
 
 /docs/ERD.png
 
-
-Then share your repository link or create a pull request to your class repository.
-
 <!--
 Example:
 
@@ -330,15 +327,10 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: https://github.com/nmargaret384-creator
+- LinkedIn: www.linkedin.com/in/wanjikunyambura
+  
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
