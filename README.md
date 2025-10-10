@@ -262,11 +262,42 @@ SELECT * FROM users;
 SELECT * FROM events;
 SELECT * FROM tickets;
 ```
+```sql
+-- Show all data in the events table
+SELECT * FROM events;
 
+-- Show only event names and prices
+SELECT event_name, price FROM events;
+
+-- Show events that cost more than 2000
+SELECT * FROM events
+WHERE price > 2000;
+
+-- Show events sorted by date (oldest first)
+SELECT * FROM events
+ORDER BY event_date ASC;
+
+-- Count how many events are in the table
+SELECT COUNT(*) AS total_events FROM events;
+```
+
+```sql
+-- Add one test event
+INSERT INTO events (event_name, event_date, location, price)
+VALUES ('Test Event', '2025-10-15', 'Nairobi', 1000.00);
+
+-- Now display it
+SELECT * FROM events;
+```
 
 You should see results appear in the Supabase SQL Editor output panel.
+<img width="1820" height="667" alt="image" src="https://github.com/user-attachments/assets/a3aef9f8-36c3-48a3-a1b4-c8ebddf93fba" />
+<img width="1920" height="530" alt="image" src="https://github.com/user-attachments/assets/44550f0b-0b2c-4f4d-80cd-9c6811640e1c" />
+<img width="1911" height="800" alt="image" src="https://github.com/user-attachments/assets/103864c3-597b-415b-ae58-dec03a487742" />
 
- RESULT EXAMPLE 
+
+
+
 
  
 
