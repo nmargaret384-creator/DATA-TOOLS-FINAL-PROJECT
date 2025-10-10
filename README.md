@@ -292,7 +292,9 @@ SELECT * FROM events;
 You should see results appear in the Supabase SQL Editor output panel.
 
 <img width="1820" height="667" alt="image" src="https://github.com/user-attachments/assets/a3aef9f8-36c3-48a3-a1b4-c8ebddf93fba" />
+
 <img width="1920" height="530" alt="image" src="https://github.com/user-attachments/assets/44550f0b-0b2c-4f4d-80cd-9c6811640e1c" />
+
 <img width="1911" height="800" alt="image" src="https://github.com/user-attachments/assets/103864c3-597b-415b-ae58-dec03a487742" />
 
 
@@ -359,7 +361,7 @@ Add visual insights such as total sales, top performers, and attendance reports.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page or submit a pull request to suggest improvements.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -367,9 +369,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, please ⭐️ the repository and share it with your friends.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -377,9 +377,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+My instructor and classmates for guidance and feedback during development.
 
-I would like to thank...
+Supabase for providing an easy-to-use PostgreSQL platform.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -387,15 +387,11 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+Q1: Why are some INSERT queries failing?
+A1: Check if your email or unique key already exists in the table. Each email must be unique.
 
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+Q2: Can I extend this database for real-world use?
+A2: Yes! You can easily connect it with a web app or mobile frontend using Supabase APIs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
