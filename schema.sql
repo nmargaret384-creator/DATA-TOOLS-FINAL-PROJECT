@@ -59,28 +59,26 @@ INSERT INTO tickets (user_id, event_id, seat_number) VALUES
 (5, 4, 'B15');
 
 
-
-
+-- Example queries for testing
+--Query 1
 SELECT * FROM users;
 SELECT * FROM events;
 SELECT * FROM tickets;
 
--- Show all data in the events table
+
+--querry 2 Show all data in the events table
 SELECT * FROM events;
-
--- Show only event names and prices
 SELECT event_name, price FROM events;
-
--- Show events that cost more than 2000
 SELECT * FROM events
 WHERE price > 2000;
-
--- Show events sorted by date (oldest first)
 SELECT * FROM events
 ORDER BY event_date ASC;
-
--- Count how many events are in the table
 SELECT COUNT(*) AS total_events FROM events;
+
+--querry 3 Add one test event
+INSERT INTO events (event_name, event_date, location, price)
+VALUES ('Test Event', '2025-10-15', 'Nairobi', 1000.00);
+SELECT * FROM events;
 
 
 
