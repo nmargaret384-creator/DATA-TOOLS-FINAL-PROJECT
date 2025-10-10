@@ -1,4 +1,4 @@
-# 🎟️ Event Ticketing and Performance System Project.
+# 🎟️ Event Ticketing and Performance System- Data Tools Project.
 
 This project is a database-driven system designed to manage users, events, and ticket sales efficiently. It allows event organizers to keep track of ticket purchases, event schedules, and attendee details using a PostgreSQL database hosted on Supabase.
 
