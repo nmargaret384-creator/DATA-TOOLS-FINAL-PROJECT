@@ -341,9 +341,15 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+🎟️ Online Ticket Booking
+
+ This feature will allow users to buy tickets directly through a web interface connected to the database.
+
+📊 Event Analytics Dashboard 
+
+Add visual insights such as total sales, top performers, and attendance reports.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
