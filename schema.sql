@@ -59,3 +59,12 @@ INSERT INTO tickets (user_id, event_id, seat_number) VALUES
 (5, 4, 'B15');
 
 
+
+
+SELECT * FROM users;
+SELECT * FROM events;
+SELECT * FROM tickets;
+
+
+
+
