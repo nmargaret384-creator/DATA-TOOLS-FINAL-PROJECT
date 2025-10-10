@@ -209,22 +209,27 @@ INSERT INTO tickets (user_id, event_id, seat_number) VALUES
 DATABASE TABLES
 
 <img width="1452" height="530" alt="image" src="https://github.com/user-attachments/assets/04aef260-0f03-48b0-91cf-47fed4d7df3d" />
+---
 
 Each Specific table should look like this in Superbase;
 Users table
 <img width="1915" height="535" alt="image" src="https://github.com/user-attachments/assets/0013faa3-54df-4310-80ba-8ae49ed26001" />
 
 
+
 Events Table
 <img width="1915" height="514" alt="image" src="https://github.com/user-attachments/assets/20ce1400-64c3-4042-b67f-8601376cb8cd" />
+---
 
 
 Ticketing Table
 <img width="1915" height="545" alt="image" src="https://github.com/user-attachments/assets/f5fd86c8-99c6-435c-a02b-371253b7031d" />
+---
 
 
 The ERD screenshot from Superbase looks like this;
 <img width="1465" height="673" alt="image" src="https://github.com/user-attachments/assets/0ea20adc-bed1-4357-bd2c-559741f71250" />
+---
 
 
 
